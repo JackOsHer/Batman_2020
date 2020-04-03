@@ -4,6 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Fotos\desarrolladores-programadores-web.png" />
+    <None Include="wwwroot\Fotos\intrasil_1.jpg" />
+  </ItemGroup>
+
 
 
 </Project>
