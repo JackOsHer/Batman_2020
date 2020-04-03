@@ -62,3 +62,50 @@
 .redes li a:hover{
     color: red;
 }
+
+
+/***********************************PARTE DE ALL ABOUT US**************************************/
+.contenedor {
+    border: 10px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tit {
+    border: 10px solid green;
+    color: red;
+    flex-basis: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.cuerpo {
+    border: 10px solid purple;
+    flex-basis: 100%;
+    display: flex;
+    flex-grow: 3;
+}
+
+    .cuerpo div {
+        border: 10px solid red;
+        color: black;
+        flex-basis: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 1px 3px 1px;
+        padding: 1em;
+    }
+
+    .cuerpo h3 {
+        text-align: center;
+    }
+
+    .cuerpo p {
+        text-align: justify;
+    }
+
+    .cuerpo > .fotex {
+        display: block;
+        text-align: center;
+    }
+
+
