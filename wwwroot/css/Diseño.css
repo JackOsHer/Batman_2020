@@ -52,3 +52,13 @@
 .home_redes{
     flex-basis:100%;
 }
+.col-md-3 ul{
+    list-style:none;
+}
+.redes li a{
+    color: white;
+    text-decoration: none;
+}
+.redes li a:hover{
+    color: red;
+}
