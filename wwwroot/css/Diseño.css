@@ -23,7 +23,7 @@
 .seccion1 {
     text-align: center;
     display: flex;
-    background-color: #17202A;
+    background-color: white;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
 }
 .seccion2 {
     display: flex;
-    background-color: #E32D00;
+    background-color: #0F63D5;
     padding: 50px 100px;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -39,6 +39,7 @@
 .logo_home a img{
     width: 250px;
     height: 250px;
+    margin-top: -150px;
 }
 .home_titulo{
     width: 100px;
