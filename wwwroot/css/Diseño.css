@@ -108,4 +108,19 @@
         text-align: center;
     }
 
+    /****************************Contactanos**************************************/
+    .textForm{
+        color: black;
+        font-family: sans-serif;
+        font-size: medium;
+    }
 
+    .formContact {
+        color: black;
+        width: 50%;
+        margin: auto;
+    }
+
+    .botonForm{
+        width: 200px;
+    }
