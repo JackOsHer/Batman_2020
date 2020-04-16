@@ -140,7 +140,7 @@
     }
 
     /***************************Registro*******************************************************************/
-    .contenedorRegistro {
-    margin-top: 100px !important;
+    .contenedorFixReg {
+        margin-top: 100px;
     }
 
