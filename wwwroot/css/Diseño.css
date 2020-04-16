@@ -125,3 +125,22 @@
     .botonForm{
         width: 200px;
     }
+    /*****************************Login*******************************************************************/
+    /*.textRedsign realiza cambios al color de la letra y al estilo (aplicado en login.cshtml)
+    */
+    .textRedesign{
+       color: black;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .loginRedesign{
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        border-style:ridge;
+    }
+
+    /***************************Registro*******************************************************************/
+    .contenedorRegistro {
+    margin-top: 100px !important;
+    }
+

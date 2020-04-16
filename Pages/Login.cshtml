@@ -1,0 +1,53 @@
+﻿@page
+@model Batman_01.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<div class="container align-self-center">
+
+    <div class="loginRedesign">
+
+        <div class="justify-content-left row textRedesign">
+            <h1 class="col-sm-12">Iniciar Sesión</h1>
+        </div>
+ 
+        <form>
+            <div class="form-group form-row align-content-center justify-content-center">
+                    <label for="mail" class="col-sm-2 textRedesign">Correo electronico</label>
+                    <input class="form-control col-sm-5" id="mail" type="email" name="mail" placeholder="Ingrese su correo electronico" />
+            </div>
+
+            <div class="form-group form-row justify-content-center">
+                    <label for="password" class="col-sm-2 textRedesign">Contraseña</label>
+                    <input class="form-control col-sm-5" id="password" type="password" name="password" placeholder="Ingrese su contraseña" />
+            </div>
+
+            <div class="form-group form-row justify-content-center">
+                    <button type="submit" class="btn btn-dark botonForm col-sm-4">Enviar</button>
+            </div>
+
+            <div class="form-group form-row justify-content-left">
+                    <input class="form-check-input col-sm-1" type="checkbox" value="" id="defaultCheck1" />
+                    <label class="form-check-label col-sm-3 textRedesign" for="defaultCheck1">Mantener abierta la sesion?</label>
+            </div>
+        </form>
+        
+        <div class="justify-content-left">
+            <a href="#" class="col-sm-4">No recuerda su cuenta?</a>
+        </div>
+    </div>
+
+    <div class="textRedesign text-center">
+        <div>
+            <p>Aun no tiene una cuenta con All Paqqa?</p>
+        </div>
+       
+        <div class="justify-content-center">
+            <a href="RegistroUser" class="btn btn-light">Crear una nueva cuenta</a>
+        </div>
+    </div>
+        
+</div>  
+

@@ -1,0 +1,23 @@
+﻿@page
+@model Batman_01.Pages.RegistroUserModel
+@{
+    ViewData["Title"] = "RegistroUser";
+}
+
+<div class="container loginRedesign w-50 align-self-center">
+    <div class="row textRedesign text-center headerRegistro">
+        <h2 class="col-12">Registro de nuevo usuario</h2>
+    </div>
+
+    <form class="form-group">
+        <div class="form-group form-row align-content-center justify-content-center">
+            <label for="firstN" class="col-2 textRedesign">Nombres</label>
+            <input class="form-control col-5" id="firstN" type="text" placeholder="Ingrese sus nombres" />
+        </div>
+
+        <div class="form-group form-row align-content-center justify-content-center">
+            <label for="lastN" class="col-2 textRedesign">Apellidos</label>
+            <input class="form-control col-5" id="lastN" type="text" placeholder="Ingrese sus apellidos" />
+        </div>
+    </form>
+</div>
